@@ -1,0 +1,23 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <td colspan="4" class="text-center">Books added by other users</td>
+      </tr>
+      <tr class="text-center">
+        <th>Book Name</th>
+        <th>Book Author</th>
+        <th>Genre</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of allBooks" class="text-center">
+        <td>{{ book.lented_Book.bookName }}</td>
+        <td>{{book.lented_Book.author}}</td>
+        <td>{{book.lented_Book.genre}}</td>
+        <td>{{book.lented_Book.description}}</td>
+        
+        
+      </tr>
+    </tbody>
+  </table>

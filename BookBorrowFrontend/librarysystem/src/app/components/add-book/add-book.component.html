@@ -1,0 +1,63 @@
+<div class="base">
+  <div class="add-book">
+      <h2 class="text-center">Add New Book</h2>
+      <form [formGroup]="addBookForm" (submit)="onAdd()">
+          <div class="mb-3">
+              <label for="bookName" class="form-label">Book Name</label>
+              <input
+                  type="text"
+                  class="form-control"
+                  id="bookName"
+                  placeholder="Enter Book Name"
+                  aria-describedby="bookNameHelp"
+                  formControlName="bookName"
+              />
+              <span *ngIf="addBookForm.controls['bookName'].dirty && addBookForm.hasError('required','bookName')" style="color: red;">Book Name Field is required</span>
+          </div>
+          
+          <div class="mb-3">
+              <label for="author" class="form-label">Book Author</label>
+              <input
+                  type="text"
+                  class="form-control"
+                  id="author"
+                  placeholder="Enter Book Author"
+                  aria-describedby="authorHelp"
+                  formControlName="author"
+              />
+              <span *ngIf="addBookForm.controls['author'].dirty && addBookForm.hasError('required','author')" style="color: red;">Book Author Field is required</span>
+          </div>
+          <div class="mb-3">
+              <label for="genre" class="form-label">Book Genre</label>
+              <input
+                  type="text"
+                  class="form-control"
+                  id="genre"
+                  placeholder="Enter Book Genre"
+                  aria-describedby="genreHelp"
+                  formControlName="genre"
+              />
+              <span *ngIf="addBookForm.controls['genre'].dirty && addBookForm.hasError('required','genre')" style="color: red;">Book Genre Field is required</span>
+          </div>
+          <div class="mb-3">
+              <label for="description" class="form-label">Book Description</label>
+              <input
+                  type="text"
+                  class="form-control"
+                  id="description"
+                  placeholder="Enter Book Description"
+                  aria-describedby="descriptionHelp"
+                  formControlName="description"
+              />
+              <span *ngIf="addBookForm.controls['description'].dirty && addBookForm.hasError('required','description')" style="color: red;">Book Description Field is required</span>
+          </div>
+          <div class="mb-3">
+            <label for="rating" class="form-label">Rate the Book</label>
+            
+            <ngb-rating formControlName="rating" [max]="5" class="form-control" id="custom-rating"></ngb-rating>
+            
+        </div>
+          <button type="submit" class="btn btn-primary" [disabled]="addBookForm.invalid">Submit</button>
+      </form>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="card text-center">
+    <div class="card-header">
+      {{book.description}} by {{book.author}}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{book.bookName}}</h5>
+      <p class="card-text">{{book.genre}}</p>
+      <p class="card-text">Lender Name:{{lenderName}}</p>
+      <a *ngIf="lentByUserId==userId" class="btn btn-danger">Lender cannot borrow</a>
+      <a *ngIf="lentByUserId!=userId" class="btn btn-primary" (click)="borrow(book.bookId)">Borrow this book</a>
+    </div>
+    <div class="card-footer text-body-secondary">
+      <ngb-rating [max]="5" [rate]="currentRating" [readonly]="true" style="color: goldenrod"></ngb-rating>
+
+    </div>
+  </div>

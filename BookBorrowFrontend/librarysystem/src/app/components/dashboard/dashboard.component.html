@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+      <tr class="text-center">
+        <th>Available Books</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of availableBooks" class="text-center">
+        <td>{{ book.bookName }}</td>
+        
+        <td><button class="btn btn-primary" (click)="viewDetails(book.bookId)">View Details</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>

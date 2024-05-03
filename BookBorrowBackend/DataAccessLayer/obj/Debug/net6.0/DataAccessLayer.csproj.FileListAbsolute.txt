@@ -1,0 +1,14 @@
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\ayushpal\Dotnet-Mini-Assignment2\BookBorrowBackend\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

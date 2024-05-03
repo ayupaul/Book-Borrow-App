@@ -1,0 +1,26 @@
+<table class="table table-striped" *ngIf="searchedBooks.length!==0">
+    <thead>
+      <tr>
+        <td colspan="4" class="text-center">Search Result for {{word}}</td>
+      </tr>
+      <tr class="text-center">
+        <th>Book Name</th>
+        <th>Book Author</th>
+        <th>Book Genre</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of searchedBooks" class="text-center">
+        <td>{{ book.bookName }}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.genre}}</td>
+        <td *ngIf="book.isBookAvailable==true"><button class="btn btn-primary" (click)="viewDetails(book.bookId)">View Details</button>
+        </td>
+        <td *ngIf="book.isBookAvailable==false">This book is already booked</td>
+      </tr>
+    </tbody>
+  </table>
+<div class="result text-center" *ngIf="searchedBooks.length===0">
+  <h3>No Result Found</h3>
+</div>
